@@ -8,15 +8,21 @@ public class Cat {
         return name;
     }
 
-    public void setName(String name) {
+    public Cat setName(String name) {
         this.name = name;
+        return this;
     }
 
     public int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public Cat setAge(int age) {
         this.age = age;
+        return this;
+    }
+
+    public void voice() {
+        System.out.println("Meof");
     }
 }
